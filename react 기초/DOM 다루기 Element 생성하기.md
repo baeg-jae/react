@@ -23,4 +23,4 @@ DOM 이란 무엇인가?
       // rootElement.appendChild(element);
     </script>
   </body>
-</html>```avaScript
+</html>```javaScript
