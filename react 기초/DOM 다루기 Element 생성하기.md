@@ -1,6 +1,16 @@
 DOM 이란 무엇인가?
 
-```<!DOCTYPE html>
+DOM이란 Document Object Model 
+XML이나 HTML 문서에 접근하기 위한 일종의 인터페이스입니다.
+이 객체 모델은 문서 내의 모든 요소를 정의하고, 각각의 요소에 접근하는 방법을 제공합니다.
+
+이러한 DOM은 W3C의 표준 객체 모델이며, 다음과 같은 계층 구조로 표현됩니다.
+
+![image](https://user-images.githubusercontent.com/105036532/188553030-a1682489-d8ea-46e5-9774-e2bff45edfe7.png)
+
+
+```js
+<!DOCTYPE html>
 <html lang="en">
   <body>
     <script
@@ -23,4 +33,5 @@ DOM 이란 무엇인가?
       // rootElement.appendChild(element);
     </script>
   </body>
-</html>```javaScript
+</html>
+```
