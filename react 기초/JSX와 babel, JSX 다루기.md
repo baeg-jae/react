@@ -14,6 +14,22 @@ Bable is a JavaScript compiler.
 정확히 Bable은 javascript로 결과물을 만들어주는 컴파일러입니다.
 컴파일러 : 언어 해석기, 특정 언어를 다른 프로그래밍 언어로 옮기는 프로그램
 https://babeljs.io/
+
+unpkg
+babel unpkg cdn
+Use it via UNPKG: https://unpkg.com/@babel/standalone/babel.min.js
+This is a simple way to embed it on a webpage without having to do any other setup.
+
+
+JSX -> React.createElement 표현식
+Bable -> JavaScript Compiler
+JSX 다루기 -> spread 연산자
+spread 연산자는 ...으로 표현한다
+
+jsx의 장점은 각가지의 html 태그안에 들어가는 여러가지 값들을  자바스크립트로 표현하고
+밸류를 함수 혹은 변수로 표현하고 그걸 그대로 쓸수있다는 장점이 있다. 
+spread 연산자는 props의 표현을 하나하나 치기보단 props 하나로 표현하는 것이다.
+
 ```js
 <!DOCTYPE html>
 <html lang="en">
