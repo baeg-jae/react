@@ -52,3 +52,5 @@ Children 제한 없음 </br>
   </body>
 </html>
 ```
+
+JS와 JSX와 HTML를 다 썩어서 쓰고있다.
